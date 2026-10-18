@@ -1,0 +1,9 @@
+# ambiente e cache do Python
+.venv/
+__pycache__/
+
+# pesos do YOLO (baixados automaticamente na primeira execução)
+*.pt
+
+# trajetórias gravadas com a tecla R
+trajetoria_*.csv
