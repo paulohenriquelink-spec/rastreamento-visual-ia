@@ -13,10 +13,10 @@ Uma IA de visão (YOLOv8) encontra uma garrafa azul na imagem da webcam, e um co
    cd rastreamento-visual-ia
    ```
 3. Crie o ambiente virtual: `python -m venv .venv`
-4. Instale as dependências: `.venv\Scripts\pip install -r requirements.txt`
-5. Conecte a webcam e rode: `rodar_demo.bat` (ou `.venv\Scripts\python demo.py`).
+4. Instale as dependências (leva alguns minutos): `.\.venv\Scripts\python -m pip install -r requirements.txt`
+5. Conecte a webcam e rode: `.\rodar_demo.bat` (ou dê dois cliques no arquivo).
 
-Na primeira execução, os pesos do YOLOv8s (~22 MB) são baixados automaticamente. Em Linux ou macOS, os passos são os mesmos, trocando `.venv\Scripts\` por `.venv/bin/` e rodando `python demo.py`.
+Os comandos funcionam no PowerShell e no Prompt de Comando. Na primeira execução, os pesos do YOLOv8s (~22 MB) são baixados automaticamente. Em Linux ou macOS, troque `.\.venv\Scripts\python` por `.venv/bin/python` e, no passo 5, rode `.venv/bin/python demo.py`.
 
 **Teclas** (com a janela do painel em foco): `1` liga/desliga · `2` P · `3` PD · `4` PID · `R` grava a trajetória em CSV · `F` tela cheia · `Q` sai.
 
